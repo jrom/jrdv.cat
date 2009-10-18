@@ -4,8 +4,8 @@
 <link rel="stylesheet" type="text/css" href="/jrdv.css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="content-language" content="<%= lang %>" />
-<meta name="description" content="<?= $text[$lang] ?>" />
-<meta name="keywords" content="<?= $keywords[$lang] ?>" />
+<meta name="description" content="description" />
+<meta name="keywords" content="keywords" />
 <meta name="author" content="JRDV" />
 <meta name="robots" content="index,follow" />
 
@@ -14,15 +14,13 @@
 <title>JRDV*</title>
 </head>
 <body>
-	<div id="cos<?= $classecos ?>">
+	<div id="cos">
 		<div id="titol">
 			<h1><a href="/" title="JRDV"><span>JRDV</span></a></h1>
 		</div>
-		<div id="idiomes<?= $classecos ?>">
+		<div id="idiomes">
 			<ul>
-				<li><a href="http://jrdv.cat/<?= $url_ara['ca'] ?>" <?= ( $lang == "ca" ? "class=\"sel\"" : "") ?>>ca</a></li>
-				<li><a href="http://jrdv.es/<?= $url_ara['es'] ?>" <?= ( $lang == "es" ? "class=\"sel\"" : "") ?>>es</a></li>
-				<li><a href="http://jrdv.org/<?= $url_ara['en'] ?>" <?= ( $lang == "en" ? "class=\"sel\"" : "") ?>>en</a></li>
+
 			</ul>
 		</div>
     <%= yield %>
