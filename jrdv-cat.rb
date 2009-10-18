@@ -4,7 +4,7 @@ require 'sinatra/r18n'
 
 before do
 
-  case env['SERVER_NAME']
+  case request.env['HTTP_HOST']
   when "jrdv.cat"
     @lang = 'ca'
   when "jrdv.es"
