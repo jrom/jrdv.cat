@@ -1,0 +1,145 @@
+body
+{
+	font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+
+a
+{
+	color: #000000;
+	text-decoration: none;
+	padding: 1px;
+}
+
+img
+{
+	border: none;
+}
+
+
+#idiomes a:hover, #idiomesinici a:hover, #inici a:hover
+{
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+#titol h1 a {
+	display: block;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 400px;
+	background-image: url(jrdv.png);
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#titol span {
+	display: none;
+}
+
+#cos {
+	position: absolute;
+
+	margin-left: -400px;
+	width: 800px;
+	
+	left: 50%;
+}
+
+#cosinici
+{
+	position: absolute;
+	
+	margin-left: -200px;
+	width: 400px;
+	
+	left: 50%;
+}
+
+
+#idiomes, #idiomesinici
+{
+	float: right;
+}
+
+#idiomes
+{
+	margin-top: -180px;
+}
+
+#idiomes ul, #idiomesinici ul
+{
+	list-style-type: none;
+}
+
+
+#idiomesinici li, #idiomes li
+{
+	padding: 6px;
+	font-size: 2em;
+	float: left;
+}
+
+#idiomes li a.sel, #idiomesinici li a.sel
+{
+	border-bottom: 2px solid #000000;
+}
+
+.contingut
+{
+	color: #555555;
+}
+
+#inici
+{
+	font-size: 1.5em;
+	margin-top: 120px;
+
+}
+#treballs
+{
+}
+
+.treball
+{
+	display: block;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	min-height: 180px;
+}
+
+.treball.par
+{
+	background-color: #ebebeb;
+
+}
+
+.treball h3
+{
+	width: 340px;
+	margin: 0px;
+}
+.treball p
+{
+	width: 340px;
+	margin: 8px;
+}
+
+.treball ul
+{
+	margin: 8px;
+}
+
+.treball li
+{
+	margin-left: -15px;
+	width: 310px;
+	margin-bottom: 8px;
+}
+
+.treball img
+{
+	float: right;
+	border: 10px solid #666666;
+}
