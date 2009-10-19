@@ -1,4 +1,3 @@
-require 'rubygems'
 require 'sinatra'
 require 'sinatra/r18n'
 
