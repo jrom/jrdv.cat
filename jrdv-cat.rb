@@ -4,7 +4,9 @@ require 'dm-core'
 require 'dm-timestamps'
 
 # DataMapper::setup(:default, ENV['DATABASE_URL'] || "sqlite3://{#Dir.pwd}/info.db")
-DataMapper::setup(:default, "sqlite3://#{Dir.pwd}/info.db")
+# DataMapper::setup(:default, "sqlite3://#{Dir.pwd}/info.db")
+DataMapper.setup(:default, ENV['DATABASE_URL'] || "sqlite3://#{Dir.pwd}/info.db")
+
 
 class Page
   include DataMapper::Resource
