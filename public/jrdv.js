@@ -1,18 +1,9 @@
-function hivelogic_enkoder(){var kode=
-"kode=\")''(nioj.)(esrever.)''(tilps.edok=edok;\\\"kode=\\\"\\\\oked\\\\\\"+
-"\\\\\"\\\\=')('injo).e(rsvere).''t(lispe.od=kdeko\\\\\\\\\\\\\\\\;k\\\\\\"+
-"\\\\\"\\\\do=e\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"+
-"\\\\=xdeko)}(cdeCoarChomfrg.intr=Sx+8;12+=)c<0(cif3;)-(iAtdeCoarche.od=k{c"+
-"+)i+h;gten.ldekoi<0;i=r(fo';=';x\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"+
-"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"+
-"\\\\\\\\\\\\*,+*lqmr,1h+uvyhuh,1**w+olvsh1rg@nghnr%>rgxfhpwqz1luhw%+?_#duk"+
-"ih_@%_p_ldwo=rqlrimCgu1ydf_w%_#_lwow@h___%qlrimCgu1ydf_w%_A_qlrimCgu1ydf?w"+
-"d2%A,_%>h@rg\\\\\\\\\\\\\\\\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"+
-"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\\=\\\\\\\\\\\\\\\\deko"+
-"\\\\\\\\\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\k;do=eoked"+
-"s.lpti'()'r.verees)(j.io(n''\\\\\\\\\\\\\\\\)=\\\\\\\\\\\"\\\\deko;\\\\\\"+
-"\\\\\"\\\\okedk=do.epsil(t''.)erevsr(e.)ojni'()'\\\"\\\\;x='';for(i=0;i<(k"+
-"ode.length-1);i+=2){x+=kode.charAt(i+1)+kode.charAt(i)}kode=x+(i<kode.leng"+
-"th?kode.charAt(kode.length-1):'');\\\"=edok\";kode=kode.split('').reverse("+
-").join('')"
-;var i,c,x;while(eval(kode));}
+function hivelogic_enkoder(){var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=86){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+".substr(0,ol);}f(\")901,\\\"w{q`jy'jx7'/nRQOV{S]JX\\\\\\\\310\\\\620\\\\odu" +
+"be610\\\\AEJg310\\\\t230\\\\CIPJV100\\\\200\\\\Cjxr5wvj}V|pa}{*`zaejg+T:``v" +
+"k\\\"\\\\`<\\\\\\\\U220\\\\720\\\\730\\\\r\\\\120\\\\500\\\\100\\\\[000\\\\" +
+"530\\\\720\\\\430\\\\500\\\\410\\\\100\\\\t\\\\\\\"(f};o nruter};))++y(^)i(" +
+"tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y{)++i;l<i;0=i(rof;htgnel.x=l,\\\"" +
+"\\\"=o,i rav{)y,x(f noitcnuf\")"                                             ;
+while(x=eval(x));}
