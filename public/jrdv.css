@@ -143,3 +143,10 @@ img
 	float: right;
 	border: 10px solid #666666;
 }
+
+#inici a
+{
+  background-color: #153142;
+  padding: 0 12px;
+  color: #ffffff;
+}
