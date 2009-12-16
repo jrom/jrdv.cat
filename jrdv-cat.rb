@@ -2,7 +2,7 @@ require 'sinatra'
 require 'sinatra/r18n'
 
 before do
-
+  headers "Content-Type" => "text/html; charset=utf-8"
   case request.env['HTTP_HOST']
   when "jrdv.cat"
     @lang = 'ca'
